@@ -14,9 +14,9 @@ CodeIgniter 4 installed
 
 ## RabbitMQ installed and running
 
-Install RabbitMQ
-macOS (using Homebrew)
-brew install rabbitmq
+Install RabbitMQ  \
+macOS (using Homebrew)   \
+brew install rabbitmq    \
 brew services start rabbitmq
 
 
@@ -24,7 +24,7 @@ brew services start rabbitmq
 sudo apt update \
 sudo apt install rabbitmq-server \
 sudo systemctl start rabbitmq-server \
-sudo systemctl enable rabbitmq-server \
+sudo systemctl enable rabbitmq-server 
 
 
 ## RabbitMQ Web UI
@@ -58,7 +58,7 @@ Library app/Libraries/RabbitMQ.php
 
 ## Send Message
 
-http://localhost:8080/rabbit/send
+http://localhost:8080/rabbit-send
 
 ## Run Consumer
 
