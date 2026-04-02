@@ -44,7 +44,7 @@ composer require php-amqplib/php-amqplib
 app/  \
 ├── Controllers/Home.php        → Send message \
 ├── Commands/RabbitConsumer.php → Receive message  \
-├── Libraries/RabbitMQ.php      → RabbitMQ service \
+├── Libraries/RabbitMQ.php      → RabbitMQ service 
 
 
 ## Code to Review
