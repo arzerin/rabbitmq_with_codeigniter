@@ -14,6 +14,14 @@ Password: guest
 
 composer require php-amqplib/php-amqplib
 
+
+## Code to Review
+
+Controller: app/Controllers/Home.php
+Spark Command File: app/Commands/RabbitConsumer.php
+Library app/Libraries/RabbitMQ.php
+
+
 ## Send Message
 
 http://localhost:8080/rabbit/send
